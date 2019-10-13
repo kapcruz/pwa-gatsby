@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Meu blog`,
-    description: `Blog de uma desenvolvedora curiosa.`,
+    title: `Karina Cruz`,
+    position: `Developer`,
+    description: `Um blog de uma desenvolvedora curiosa.`,
     author: `@codingkey`,
   },
   plugins: [
@@ -12,6 +13,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
       },
     },
     `gatsby-transformer-sharp`,
