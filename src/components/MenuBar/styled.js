@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-export const MenuBarWrapper = style.aside`
+export const MenuBarWrapper = styled.aside`
 	align-items: center;
 	background: #192734;
 	border-left: 1px solid #38444d;
