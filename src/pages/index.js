@@ -20,6 +20,9 @@ const IndexPage = () => {
               title
             }
             timeToRead
+            fields{
+              slug
+            }
           }
         }
       }
@@ -35,12 +38,13 @@ const IndexPage = () => {
       {postList.map(
         ({
           node: {
+            fields: { slug },
             frontmatter: { background, category, date, description, title },
-            timeToRead,
+            timeToRead
           },
         }) => (
           <PostItem
-            slug="/about/"
+            slug={slug}
             background={background}
             category={category}
             date={date}
