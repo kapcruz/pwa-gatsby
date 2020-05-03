@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const SearchWrapper = styled.section`
-  background: var(--background);
+  background: #16202c;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -20,19 +20,19 @@ export const SearchWrapper = styled.section`
     padding-top: 6rem;
   }
   .ais-Stats {
-    color: var(--texts);
+    color: #8899a6;
   }
   .ais-SearchBox-input {
     background: none;
     border: none;
-    border-bottom: 1px solid var(--borders);
-    color: var(--texts);
+    border-bottom: 1px solid #38444d;
+    color: #8899a6;
     display: flex;
     font-size: 1.6rem;
     padding: 0.5rem;
     width: 100%;
     &::placeholder {
-      color: var(--texts);
+      color: #8899a6;
     }
   }
   .ais-SearchBox-submit,

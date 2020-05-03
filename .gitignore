@@ -70,3 +70,9 @@ yarn-error.log
 
 #vscode
 .vscode
+
+#package
+package-lock.json
+
+#posts
+posts

@@ -6,8 +6,8 @@ module.exports = {
   siteMetadata: {
     title: `Karina Cruz`,
     position: `Desenvolvedora`,
-    description: `Um blog sobre uma pessoa curiosa.`,
-    author: `@myblog`,
+    description: `Um blog de uma pessoa curiosa.`,
+    author: `@kapcruz`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
